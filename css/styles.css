@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #256693;
+    --on-primary: #FFFFFF;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.nav {
+
+}
+
+.nav__content {
+    display: flex;
+}
+
+.nav__content--left,
+.nav__content--right {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.nav__content--left {
+    margin: 1.6rem 0 1.6rem 4.8rem;
+}
+
+.nav__content--right {
+    justify-content: flex-end;
+}
+
+.account-chip {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--on-primary);
+    border-radius: 2.1rem;
+}
+
+.account-chip__content {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.account-chip__profile-photo {
+    margin: .8rem;
+}
+
+.account-chip__title {
+    margin: 1rem .85rem;
+}
+
+.menu-icon {
+    background-color: var(--primary-color);
+    padding: 2.1rem;
+}
+
+.nav__logo {
+    height: 4.5rem;
+    width: 15.3rem;
+    object-fit: cover; /*todo remove*/
+}
