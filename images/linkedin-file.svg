@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="54" viewBox="0 0 42 54">
+  <g id="Group_91174" data-name="Group 91174" transform="translate(-1449.67 -1476.582)">
+    <g id="Group_91039" data-name="Group 91039" transform="translate(754.408 838.828)">
+      <g id="Group_91040" data-name="Group 91040">
+        <g id="Group_91037" data-name="Group 91037" transform="translate(211.454 13)">
+          <g id="Component_461_1" data-name="Component 461 – 1" transform="translate(483.808 633.754)">
+            <g id="icon_pdf_2" data-name="icon pdf 2" transform="translate(0 0)">
+              <g id="Group_91034" data-name="Group 91034">
+                <path id="Path_124082" data-name="Path 124082" d="M22.741,1.206A4.313,4.313,0,0,0,19.688,0H7.634A7.683,7.683,0,0,0,0,7.635V37.367A7.683,7.683,0,0,0,7.634,45H26.92a7.683,7.683,0,0,0,7.634-7.634V14.225a4.369,4.369,0,0,0-1.366-3.214Zm9.4,36.161a5.213,5.213,0,0,1-5.223,5.223H7.634A5.213,5.213,0,0,1,2.41,37.367V7.635A5.213,5.213,0,0,1,7.634,2.412H19.768V9.644a4.459,4.459,0,0,0,4.42,4.42h7.955v23.3Z" transform="translate(0 -0.001)" fill="#256693"/>
+              </g>
+            </g>
+            <g id="Group_91042" data-name="Group 91042" transform="translate(7.379 16.273)">
+              <g id="Group_91044" data-name="Group 91044">
+                <path id="Path_125389" data-name="Path 125389" d="M0,1.468A1.494,1.494,0,0,1,1.516,0H18.995a1.493,1.493,0,0,1,1.516,1.469V19.041a1.493,1.493,0,0,1-1.516,1.469H1.516A1.493,1.493,0,0,1,0,19.041V1.468Z" transform="translate(0 3.001)" fill="#256693"/>
+                <path id="Path_125390" data-name="Path 125390" d="M21.592,35.08V25.846H18.523V35.08h3.069ZM20.058,24.586a1.6,1.6,0,1,0,.02-3.191,1.6,1.6,0,1,0-.04,3.191h.02ZM23.291,35.08H26.36V29.924a2.1,2.1,0,0,1,.1-.749,1.68,1.68,0,0,1,1.575-1.123c1.11,0,1.555.847,1.555,2.088V35.08H32.66V29.786c0-2.836-1.514-4.156-3.533-4.156a3.058,3.058,0,0,0-2.787,1.556h.02V25.847H23.291c.04.866,0,9.234,0,9.234Z" transform="translate(-15.359 -14.916)" fill="#fff"/>
+              </g>
+            </g>
+          </g>
+          <circle id="Ellipse_1011" data-name="Ellipse 1011" cx="7.5" cy="7.5" r="7.5" transform="translate(510.808 624.754)" fill="#256693"/>
+          <line id="Line_4166" data-name="Line 4166" x2="6" y2="6" transform="translate(515.308 629.254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_4167" data-name="Line 4167" x1="6" y2="6" transform="translate(515.308 629.254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

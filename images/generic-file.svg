@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="54" viewBox="0 0 42 54">
+  <g id="Group_91175" data-name="Group 91175" transform="translate(-1391.67 -1476.582)">
+    <g id="Group_91039" data-name="Group 91039" transform="translate(696.408 838.828)">
+      <g id="Group_91040" data-name="Group 91040">
+        <g id="Group_91037" data-name="Group 91037" transform="translate(211.454 13)">
+          <g id="Component_461_1" data-name="Component 461 – 1" transform="translate(483.808 633.754)">
+            <g id="icon_pdf_2" data-name="icon pdf 2" transform="translate(0 0)">
+              <g id="Group_91034" data-name="Group 91034">
+                <path id="Path_124082" data-name="Path 124082" d="M22.741,1.206A4.313,4.313,0,0,0,19.688,0H7.634A7.683,7.683,0,0,0,0,7.635V37.367A7.683,7.683,0,0,0,7.634,45H26.92a7.683,7.683,0,0,0,7.634-7.634V14.225a4.369,4.369,0,0,0-1.366-3.214Zm9.4,36.161a5.213,5.213,0,0,1-5.223,5.223H7.634A5.213,5.213,0,0,1,2.41,37.367V7.635A5.213,5.213,0,0,1,7.634,2.412H19.768V9.644a4.459,4.459,0,0,0,4.42,4.42h7.955v23.3Z" transform="translate(0 -0.001)" fill="#256693"/>
+              </g>
+            </g>
+            <g id="אייקון_v" data-name="אייקון v" transform="translate(6.664 18.916)">
+              <g id="Group_89769" data-name="Group 89769">
+                <path id="Path_124103" data-name="Path 124103" d="M10.613,0A10.613,10.613,0,1,0,21.225,10.613,10.613,10.613,0,0,0,10.613,0m5.946,8.435-6.353,7a1.964,1.964,0,0,1-1.455.644H8.678A1.968,1.968,0,0,1,7.2,15.322L4.573,11.957a1.965,1.965,0,0,1,3.1-2.42l1.192,1.526,4.785-5.27a1.965,1.965,0,0,1,2.91,2.642Z" fill="#256693"/>
+              </g>
+            </g>
+          </g>
+          <circle id="Ellipse_1011" data-name="Ellipse 1011" cx="7.5" cy="7.5" r="7.5" transform="translate(510.808 624.754)" fill="#256693"/>
+          <line id="Line_4166" data-name="Line 4166" x2="6" y2="6" transform="translate(515.308 629.254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_4167" data-name="Line 4167" x1="6" y2="6" transform="translate(515.308 629.254)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

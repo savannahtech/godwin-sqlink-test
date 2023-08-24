@@ -6,24 +6,603 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>אודות אגף התפעול</title>
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav__content">
-            <div class="nav__content--left">
-                <div class="account-chip">
-                    <div class="account-chip__content">
-                        <span class="account-chip__title">איזור אישי</span>
-                        <img src="images/profile-icon.svg" alt="Profile Photo" class="account-chip__profile-photo">
+<nav class="nav">
+    <div class="nav__content">
+        <div class="nav__content--left">
+            <div class="account-chip">
+                <div class="account-chip__content">
+                    <span class="account-chip__title">איזור אישי</span>
+                    <img src="images/profile-icon.svg" alt="תמונת פרופיל" class="account-chip__profile-photo">
+                </div>
+            </div>
+        </div>
+        <div class="nav__content--right">
+            <div class="lang-selector">
+                <span class="lang-selector__locale"><i class="fas fa-angle-down"></i>EN</span>
+            </div>
+
+            <i class="fas fa-search nav__search" id="search-btn"></i>
+
+            <input type="search" class="nav__search--input hidden" dir="rtl" id="nav__search--input">
+
+            <div class="vl nav__item-separator"></div>
+
+            <img src="images/logo.svg" alt="סֵמֶל" class="nav__logo">
+
+            <img src="images/hamburger.svg" alt="סמל התפריט" class="menu-icon">
+        </div>
+    </div>
+</nav>
+<section class="header__container">
+    <section class="header header__background">
+        <div class="header__content">
+            <div class="header__content--left">
+                <img src="images/תמונת%20נושא%20מכרזים.png" alt="אדם בעבודה" class="hero-image">
+                <ul class="share__icons--list">
+                    <li><img src="images/whatsapp.svg" alt="Whatsapp" class="share__icons--item"></li>
+                    <li><i class="fab fa-facebook-square share__icons--item"></i></li>
+                    <li><i class="fas fa-fax share__icons--item"></i></li>
+                </ul>
+            </div>
+            <div class="header__content--center">
+            </div>
+            <div class="header__content--right">
+                <div class="header__nav-stack u-row u-margin-top-large" dir="rtl">
+                    <img src="images/arrow-back.svg" alt="Arrow Back">
+                    <span>שלחשלח</span>
+                </div>
+                <ul class="nav__route" dir="rtl">
+                    <li class="nav__route--item nav__route--selected">אודות אגף התפעול</li>
+                    <li class="nav__route--item ">איכות מי השתיה שלנו</li>
+                    <li class="nav__route--item">הפסקות מים און ליין</li>
+                    <li class="nav__route--item">שפכי מפעלים</li>
+                    <li class="nav__route--item">מכון לטיהור שפכים</li>
+                    <li class="nav__route--item">אודות אגף התפעול</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="header header__foreground">
+        <div class="header__content">
+            <div class="header__content--left">
+            </div>
+            <div class="header__content--center">
+                <ul class="breadcrumbs" dir="rtl">
+                    <li class="breadcrumbs--item">איכות מי השתיה שלנו</li>
+                    <li class="breadcrumbs--item">אודות אגף התפעול</li>
+                    <li class="breadcrumbs--item">שפכי מפעלים</li>
+                </ul>
+
+                <p class="nav__title">בחרו נושאים להצגה</p>
+
+                <div class="options__card">
+                    <div class="options__card--content">
+                        <p class="options__card--title">בחרו נושאים להצגה</p>
+                        <div class="options__card--actions">
+                            <button class="btn btn__secondary--outline">משרות מי שבע | 3</button>
+                            <button class="btn btn__secondary">משרות מי שבע | 4</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="document">
+                    <div class="document__content">
+
+                        <div class="document__header">
+                            <span class="document__header--title">מכרזי בכירים</span>
+                            <img src="images/man-n-woman.svg" alt="איש ואישה" class="document__header--img">
+                        </div>
+
+                        <div class="document__body">
+
+                            <p class="document__timestamp">מועד פרסום: 7/11/2021 | מועד עדכון: 10/12/21</p>
+
+                            <img src="./images/close_icon.svg" alt="Dismiss icon" class="document__close">
+
+                            <div class="roles__card document__roles-card">
+                                <div class="roles__card--content" dir="rtl">
+                                    <div class="u-row">
+                                        <div class="roles__status u-column">
+                                            <img src="images/checkmark-green.svg" alt="Checkmark"
+                                                 class="roles__status-icon">
+                                            <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                        </div>
+                                        <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                        <div class="roles__details">
+                                            <p class="u-title-normal u-margin_horizontal-small">אחראי רכש באגף
+                                                הלוגיסטיקה</p>
+                                            <div class="u-row u-margin_horizontal-small">
+                                                <p class="roles__subtitle">
+                                                    <span>מועד אחרון להגשה:</span>
+                                                    <span class="u-text-secondary">12/12/2021</span>
+                                                    <span class="u-primary-light"> | </span>
+                                                    <span>שעה:</span>
+                                                    <span class="u-text-secondary">16:00</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="document__description" dir="rtl">לורם איפסום הוא טקסט חסר הקשר וחסר משמעות בכוונה
+                                - וזאת כדי
+                                שעין הקורא לא "תצוד" בזמן הרפרוף
+                                עליו, מילה שתסיח את דעתו. לורם איפסום תוכנן בקפידה כך שיחקה במרקם ובקצב שלו טקסט אמיתי
+                                בעברית.
+                            </p>
+
+                            <hr class="hr u-margin-vertical-medium">
+
+                            <div class="u-row">
+                                <div class="benefits u-column">
+                                    <p class="benefits__header u-text-align-end">בחרו נושאים להצגה</p>
+                                    <ul dir="rtl" class="benefits__list">
+                                        <li class="benefits__list--item">הרלוונטי, לא מומלץ למקם טקסט</li>
+                                        <li class="benefits__list--item">קיים הטקסט הרלוונטי, לא מומלץ למקם טקסט</li>
+                                        <li class="benefits__list--item">קיים הטקסט הרלוונ למקם טקסט</li>
+                                        <li class="benefits__list--item">קיים הטקסט הרללץ למקם טקסט</li>
+                                        <li class="benefits__list--item">קייםלא מומלץ למקם טקסט</li>
+                                    </ul>
+                                    <div class="u-row u-row-align-end">
+                                        <div class="u-column u-column-align-end">
+                                        <span>
+                                            <button class="btn btn__primary--rounded-outline">
+                                            <span class="btn__content" dir="rtl">
+                                                <img src="images/pdf-acrobat.svg" alt="PDF File">
+                                                <span>פסום תוכנןפידה </span>
+                                            </span>
+                                        </button>
+                                        </span>
+                                            <span>
+                                            <button class="btn btn__primary--rounded-outline u-margin-vertical-small">
+                                             <span class="btn__content" dir="rtl">
+                                                <img src="images/pdf-acrobat.svg" alt="PDF File">
+                                                <span>ורם איפסום תוכנן בקפידה </span>
+                                            </span>
+                                        </button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="question outline--card u-column">
+                                    <img src="images/smiling-heart.svg" alt="Smiling heart" class="question__image">
+                                    <p class="question__title">מועד אחרון להגשה?</p>
+                                    <p class="question__message">אתר מציע לראשונה בישראל טקסט לורם איפסום בעברית לטובת
+                                        מעצבי רפיים, הגרפיקאים, עורכים גרפיים, ובחד שזקוקטקסט סתמית לשיבוץ בסקיצה.</p>
+                                </div>
+                            </div>
+
+                            <hr class="hr u-margin-vertical-medium">
+
+                            <p class="u-title-small u-margin-bottom-medium" dir="rtl"> בחרו נושאים להצגה</p>
+
+                            <div class="u-row " dir="rtl">
+                                <i class="fab fa-linkedin"></i>
+                                <span class="u-margin_horizontal-small">בחרו נושאים להצגה</span>
+                            </div>
+
+                            <div class="linkedin u-row">
+                                <button class="btn">
+                                <span class="btn__content btn__primary--rounded" dir="rtl">
+                                    <img src="images/share-icon.svg" alt="Share Icon">
+                                    <span>בחרו נושאים להצגה</span>
+                                </span>
+                                </button>
+                                <div class="linkedin__url-input">
+                                    <img src="images/checkmark-blue.svg" alt="Checkmark">
+                                    <input type="text" dir="rtl" class="linkedin__text-field"
+                                           value="https://linkedin.com/godwinaddy">
+                                </div>
+                            </div>
+
+                            <hr class="hr u-margin-vertical-medium">
+
+                            <p dir="rtl"> מכער את הסקיצה ופוגם בתחושת</p>
+
+                            <div class="uploaded-files u-row" dir="rtl">
+                                <img src="images/linkedin-file.svg" alt="uploaded file icon"
+                                     class="uploaded-files__item">
+                                <img src="images/generic-file.svg" alt="uploaded file icon"
+                                     class="uploaded-files__item">
+                                <img src="images/generic-file.svg" alt="uploaded file icon"
+                                     class="uploaded-files__item">
+                            </div>
+                        </div>
+
+                        <div class="roles">
+                            <div class="roles__card">
+                                <div class="roles__card--content" dir="rtl">
+                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                        עדכון:
+                                        10/12/21</p>
+                                    <div class="u-row roles__sub-row">
+                                        <div class="roles__status u-column">
+                                            <img src="images/checkmark-green.svg" alt="Checkmark"
+                                                 class="roles__status-icon">
+                                            <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                        </div>
+                                        <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                        <div class="roles__details">
+                                            <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                                הלוגיסטיקה</p>
+                                            <div class="u-row u-margin_horizontal-small">
+                                                <p class="roles__subtitle">
+                                                    <span>מועד אחרון להגשה:</span>
+                                                    <span class="u-text-secondary">12/12/2021</span>
+                                                    <span class="u-primary-light"> | </span>
+                                                    <span>שעה:</span>
+                                                    <span class="u-text-secondary">16:00</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roles__card">
+                                <div class="roles__card--content" dir="rtl">
+                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                        עדכון:
+                                        10/12/21</p>
+                                    <div class="u-row roles__sub-row">
+                                        <div class="roles__status u-column">
+                                            <img src="images/checkmark-green.svg" alt="Checkmark"
+                                                 class="roles__status-icon">
+                                            <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                        </div>
+                                        <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                        <div class="roles__details">
+                                            <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                                הלוגיסטיקה</p>
+                                            <div class="u-row u-margin_horizontal-small">
+                                                <p class="roles__subtitle">
+                                                    <span>מועד אחרון להגשה:</span>
+                                                    <span class="u-text-secondary">12/12/2021</span>
+                                                    <span class="u-primary-light"> | </span>
+                                                    <span>שעה:</span>
+                                                    <span class="u-text-secondary">16:00</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="roles__card">
+                                <div class="roles__card--content" dir="rtl">
+                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                        עדכון:
+                                        10/12/21</p>
+                                    <div class="u-row roles__sub-row">
+                                        <div class="roles__status u-column">
+                                            <img src="images/checkmark-green.svg" alt="Checkmark"
+                                                 class="roles__status-icon">
+                                            <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                        </div>
+                                        <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                        <div class="roles__details">
+                                            <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                                הלוגיסטיקה</p>
+                                            <div class="u-row u-margin_horizontal-small">
+                                                <p class="roles__subtitle">
+                                                    <span>מועד אחרון להגשה:</span>
+                                                    <span class="u-text-secondary">12/12/2021</span>
+                                                    <span class="u-primary-light"> | </span>
+                                                    <span>שעה:</span>
+                                                    <span class="u-text-secondary">16:00</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br class="u-margin-vertical-medium">
+
+                        <br class="u-margin-vertical-medium">
+
+                        <div class="steps">
+                            <div class="steps__content">
+                                <div class="steps__title">
+                                    <p class="steps__title--text u-text-secondary u-text-default-size">תהליך המיון</p>
+                                </div>
+                                <div class="steps__body" dir="rtl">
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">1</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">2</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">3</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">4</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">5</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                    <div class="steps__item--wrapper">
+                                        <div class="steps__item u-text-secondary">
+                                            <span class="steps__item--number">6</span>
+                                            <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="newsletter__card u-margin-top-xl">
+                            <div class="newsletter__card--content u-row" dir="rtl">
+                                <img class="newsletter__card--icon" src="images/newsletter.svg" alt="Newspaper icon">
+                                <div class="content--left u-column">
+                                    <p class="u-margin-bottom-medium">הגשת עותק קשיח של:</p>
+                                    <ul>
+                                        <li>המלצות</li>
+                                        <li>שאלון למועמד</li>
+                                        <li>קורות חיים</li>
+                                        <li>תעודות</li>
+                                    </ul>
+                                    <p class="u-text-small u-margin-bottom-medium">במשרדי התאגיד - רחוב רחה פריאר 9,
+                                        ב״ש, בניין MTOWER</p>
+                                    <div class="u-row">
+                                        <button class="btn btn__secondary--rounded-invert">
+                                        <span class="btn__content" dir="rtl">
+                                            <span>טופס שאלון למועמד</span>
+                                        </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__card" dir="rtl">
+                    <div class="skills__card--title">
+                        <img src="images/spanners.svg" alt="Spanner icon">
+                        <span class="u-title-medium">הגשת עותק קשיח של</span>
+                    </div>
+
+                    <div class="roles__card">
+                        <div class="roles__card--content" dir="rtl">
+                            <div class="u-row u-margin-top-medium roles__sub-row">
+                                <div class="roles__status u-column">
+                                    <img src="images/checkmark-green.svg" alt="Checkmark"
+                                         class="roles__status-icon">
+                                    <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                </div>
+                                <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                <div class="roles__details">
+                                    <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                        הלוגיסטיקה</p>
+                                    <div class="u-row u-margin_horizontal-small">
+                                        <p class="roles__subtitle">
+                                            <span>מועד אחרון להגשה:</span>
+                                            <span class="u-text-secondary">12/12/2021</span>
+                                            <span class="u-primary-light"> | </span>
+                                            <span>שעה:</span>
+                                            <span class="u-text-secondary">16:00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roles__card">
+                        <div class="roles__card--content" dir="rtl">
+                            <div class="u-row u-margin-top-medium roles__sub-row">
+                                <div class="roles__status u-column">
+                                    <img src="images/checkmark-green.svg" alt="Checkmark"
+                                         class="roles__status-icon">
+                                    <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                </div>
+                                <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                <div class="roles__details">
+                                    <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                        הלוגיסטיקה</p>
+                                    <div class="u-row u-margin_horizontal-small">
+                                        <p class="roles__subtitle">
+                                            <span>מועד אחרון להגשה:</span>
+                                            <span class="u-text-secondary">12/12/2021</span>
+                                            <span class="u-primary-light"> | </span>
+                                            <span>שעה:</span>
+                                            <span class="u-text-secondary">16:00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roles__card">
+                        <div class="roles__card--content" dir="rtl">
+                            <div class="u-row u-margin-top-medium roles__sub-row">
+                                <div class="roles__status u-column">
+                                    <img src="images/checkmark-green.svg" alt="Checkmark"
+                                         class="roles__status-icon">
+                                    <p class="u-text-secondary roles__status--title">סטטוס: פתוח</p>
+                                </div>
+                                <div class="vl roles__status--divider u-margin_horizontal-small"></div>
+                                <div class="roles__details">
+                                    <p class="u-title-medium u-margin_horizontal-small">אחראי רכש באגף
+                                        הלוגיסטיקה</p>
+                                    <div class="u-row u-margin_horizontal-small">
+                                        <p class="roles__subtitle">
+                                            <span>מועד אחרון להגשה:</span>
+                                            <span class="u-text-secondary">12/12/2021</span>
+                                            <span class="u-primary-light"> | </span>
+                                            <span>שעה:</span>
+                                            <span class="u-text-secondary">16:00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="steps">
+                        <div class="steps__content">
+                            <div class="steps__title--primary u-margin-top-large">
+                                <p class="steps__title--text u-text-default-size">תהליך המיון</p>
+                            </div>
+                            <div class="steps__body" dir="rtl">
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">1</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">2</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">3</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">4</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">5</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                                <div class="steps__item--wrapper">
+                                    <div class="steps__item--primary">
+                                        <span class="steps__item--number-primary">6</span>
+                                        <span class="steps__item--text">איתור משרה רלוונטית והגשת מועמדות</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter__card newsletter__card--primary u-margin-vertical-xl">
+                    <div class="newsletter__card--content u-text-medium u-row" dir="rtl">
+                        <img class="newsletter__card--icon newsletter__card--icon-primary" src="images/newsletter.svg"
+                             alt="Newspaper icon">
+                        <div class="content--left u-column">
+                            <p class="u-text-small u-margin-top-medium">כל המשרות מפורסמות גם בעמוד הפייסבוק של התאגיד
+                                ובאתרי הדרושים</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div dir="rtl" class="u-column support">
+                    <p>לשאלות והבהרות</p>
+                    <p>בנושא מכרזי כח אדם ומשרות</p>
+                    <div class="u-column">
+                        <p>ניתן לפנות למנהלת משאבי אנוש בתאגיד:</p>
+                        <p>טלפון: 08-9524423</p>
+                        <p>קורות חיים יש לשלוח לדוא”ל זה בלבד:</p>
+                        <a href="mailto:jobs@mei7.co.il">jobs@mei7.co.il</a>
+                        <div class="u-row">
+                            <button class="btn btn__primary--rounded btn__slim">טופס שאלון למועמד</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="nav__content--right">
-                <img src="images/logo.png" alt="Menu icon" class="nav__logo">
-                <img src="images/hamburger.svg" alt="Menu icon" class="menu-icon">
+            <div class="header__content--right">
             </div>
         </div>
-    </nav>
+        <footer class="footer" dir="rtl">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <div class="footer__contact u-column">
+                        <a href="tel:+1-800-071-652" class="footer__phone">
+                            <img src="images/telephone.svg" alt="Phone">
+                            <span>1-800-071-652</span>
+                        </a>
+                        <a href="tel:+1-800-071-652" class="footer__phone footer__phone--secondary">
+                            <img src="images/whatsapp-green.svg" alt="Phone">
+                            <span>1-800-071-652</span>
+                        </a>
+                        <a href="mailto:info@mei7.co.il"
+                           class="contact__email u-margin-vertical-medium">info@mei7.co.il</a>
+
+                        <div class="footer__contact--address">
+                            <p>קורות חיים יש לשלוח לדוא”ל זה בלבד</p>
+                            <p>57 יש לשלוח לדוא</p>
+                            <p>קורות חיים יש 5100 לשלוח </p>
+                            <p>8415002</p>
+                        </div>
+
+                        <div class="footer__contact--address u-margin-top-medium">
+                            <p>לשלוח לדוא</p>
+                            <p>לו - 6:00 - 10:00</p>
+                            <p>ו -12:00 - 10:00</p>
+                        </div>
+
+                        <div class="footer__social-icons u-row">
+                            <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <div class="contact__form" dir="rtl">
+                        <p class="contact__form--title">לשאהבהרות</p>
+                        <label class="contact__form--label u-margin-top-medium">
+                            <span>בנושא מכרז</span>
+                            <input type="text" class="contact__form--input input" placeholder="בנושא מכרז">
+                        </label>
+                        <label class="contact__form--label u-margin-top-medium">
+                            <span>בנושא מכרז</span>
+                            <input type="text" class="contact__form--input input" placeholder="בנושא מכרז">
+                        </label>
+                        <label class="contact__form--label u-margin-top-medium">
+                            <span>בנושא מכרז</span>
+                            <input type="text" class="contact__form--input input" placeholder="xxx-xxx-xxx">
+                        </label>
+                        <label class="contact__form--label u-margin-top-medium">
+                            <span>בנושא מכרז</span>
+                            <textarea class="contact__form--input input input-area" placeholder="בנושא מכרז"></textarea>
+                        </label>
+                        <button class="btn btn__primary--rounded u-margin-top-medium contact__form--submit">שלח</button>
+                    </div>
+                </div>
+                <div class="footer__right">
+                </div>
+            </div>
+        </footer>
+    </section>
+</section>
+<script src="./scripts/index.js"></script>
 </body>
 </html>
