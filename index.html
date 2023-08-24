@@ -39,6 +39,17 @@
         </div>
     </div>
 </nav>
+<nav class="nav__mobile">
+    <div class="nav__content">
+        <div class="nav__content--right">
+            <img src="images/profile-icon-blue.png" alt="תמונת פרופיל" class="account-chip__profile-photo">
+
+            <img src="images/logo.svg" alt="סֵמֶל" class="nav__logo">
+
+            <img src="images/hamburger.svg" alt="סמל התפריט" class="menu-icon">
+        </div>
+    </div>
+</nav>
 <section class="header__container">
     <section class="header header__background">
         <div class="header__content">
@@ -78,6 +89,8 @@
                     <li class="breadcrumbs--item">אודות אגף התפעול</li>
                     <li class="breadcrumbs--item">שפכי מפעלים</li>
                 </ul>
+
+                <img class="hero-image__mobile" src="images/hero-mobile.png"/>
 
                 <p class="nav__title">בחרו נושאים להצגה</p>
 
@@ -140,7 +153,7 @@
 
                             <hr class="hr u-margin-vertical-medium">
 
-                            <div class="u-row">
+                            <div class="u-row u-row__mobile">
                                 <div class="benefits u-column">
                                     <p class="benefits__header u-text-align-end">בחרו נושאים להצגה</p>
                                     <ul dir="rtl" class="benefits__list">
@@ -171,7 +184,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="question outline--card u-column">
+                                <div class="question outline--card--primary u-column">
                                     <img src="images/smiling-heart.svg" alt="Smiling heart" class="question__image">
                                     <p class="question__title">מועד אחרון להגשה?</p>
                                     <p class="question__message">אתר מציע לראשונה בישראל טקסט לורם איפסום בעברית לטובת
@@ -181,14 +194,14 @@
 
                             <hr class="hr u-margin-vertical-medium">
 
-                            <p class="u-title-small u-margin-bottom-medium" dir="rtl"> בחרו נושאים להצגה</p>
+                            <p class="u-title-small u-margin-bottom-medium m__padding--small" dir="rtl"> בחרו נושאים להצגה</p>
 
-                            <div class="u-row " dir="rtl">
+                            <div class="u-row m__padding--small" dir="rtl">
                                 <i class="fab fa-linkedin"></i>
                                 <span class="u-margin_horizontal-small">בחרו נושאים להצגה</span>
                             </div>
 
-                            <div class="linkedin u-row">
+                            <div class="linkedin u-row u-row__mobile">
                                 <button class="btn">
                                 <span class="btn__content btn__primary--rounded" dir="rtl">
                                     <img src="images/share-icon.svg" alt="Share Icon">
@@ -204,9 +217,9 @@
 
                             <hr class="hr u-margin-vertical-medium">
 
-                            <p dir="rtl"> מכער את הסקיצה ופוגם בתחושת</p>
+                            <p dir="rtl" class="m__padding--small"> מכער את הסקיצה ופוגם בתחושת</p>
 
-                            <div class="uploaded-files u-row" dir="rtl">
+                            <div class="uploaded-files u-row m__padding--small" dir="rtl">
                                 <img src="images/linkedin-file.svg" alt="uploaded file icon"
                                      class="uploaded-files__item">
                                 <img src="images/generic-file.svg" alt="uploaded file icon"
@@ -214,12 +227,16 @@
                                 <img src="images/generic-file.svg" alt="uploaded file icon"
                                      class="uploaded-files__item">
                             </div>
+
+                            <div class="expand__document--btn">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
                         </div>
 
                         <div class="roles">
                             <div class="roles__card">
                                 <div class="roles__card--content" dir="rtl">
-                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                    <p class="u-caption u-text-align-end roles__timestamp m__padding--small">מועד פרסום: 7/11/2021 | מועד
                                         עדכון:
                                         10/12/21</p>
                                     <div class="u-row roles__sub-row">
@@ -244,11 +261,14 @@
                                         </div>
                                         <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
                                     </div>
+                                    <div class="expand__document--btn">
+                                        <i class="fas fa-plus u-text-primary"></i>
+                                    </div>
                                 </div>
                             </div>
                             <div class="roles__card">
                                 <div class="roles__card--content" dir="rtl">
-                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                    <p class="u-caption u-text-align-end roles__timestamp m__padding--small">מועד פרסום: 7/11/2021 | מועד
                                         עדכון:
                                         10/12/21</p>
                                     <div class="u-row roles__sub-row">
@@ -273,11 +293,14 @@
                                         </div>
                                         <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
                                     </div>
+                                    <div class="expand__document--btn">
+                                        <i class="fas fa-plus u-text-primary"></i>
+                                    </div>
                                 </div>
                             </div>
                             <div class="roles__card">
                                 <div class="roles__card--content" dir="rtl">
-                                    <p class="u-caption u-text-align-end roles__timestamp">מועד פרסום: 7/11/2021 | מועד
+                                    <p class="u-caption u-text-align-end roles__timestamp m__padding--small">מועד פרסום: 7/11/2021 | מועד
                                         עדכון:
                                         10/12/21</p>
                                     <div class="u-row roles__sub-row">
@@ -301,6 +324,9 @@
                                             </div>
                                         </div>
                                         <img class="add-role" src="images/expand-item.svg" alt="Expand Item">
+                                    </div>
+                                    <div class="expand__document--btn">
+                                        <i class="fas fa-plus u-text-primary"></i>
                                     </div>
                                 </div>
                             </div>
@@ -367,8 +393,10 @@
                                         <li>קורות חיים</li>
                                         <li>תעודות</li>
                                     </ul>
+                                    <hr class="hr--white mobile">
                                     <p class="u-text-small u-margin-bottom-medium">במשרדי התאגיד - רחוב רחה פריאר 9,
                                         ב״ש, בניין MTOWER</p>
+                                    <hr class="hr--white mobile">
                                     <div class="u-row">
                                         <button class="btn btn__secondary--rounded-invert">
                                         <span class="btn__content" dir="rtl">
@@ -523,7 +551,7 @@
                     </div>
                 </div>
 
-                <div dir="rtl" class="u-column support">
+                <div dir="rtl" class="u-column support m__padding--medium">
                     <p>לשאלות והבהרות</p>
                     <p>בנושא מכרזי כח אדם ומשרות</p>
                     <div class="u-column">
@@ -541,7 +569,7 @@
             </div>
         </div>
         <footer class="footer" dir="rtl">
-            <div class="footer__content">
+            <div class="footer__content u-row__mobile">
                 <div class="footer__left">
                     <div class="footer__contact u-column">
                         <a href="tel:+1-800-071-652" class="footer__phone">
