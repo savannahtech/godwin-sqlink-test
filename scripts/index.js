@@ -83,31 +83,30 @@ function collapseDoc(documentBody) {
     collapsibleSection.classList.remove('expand-out');
     collapsibleSection.classList.add('collapse-in');
 
-    //hide all btns
-    if (!atPhoneWidth) {
-        for (let btn of collapseBtns) {
-            btn.style.display = 'none';
-        }
-    } else {
-        for (let btn of collapseBtnsPhone) {
-            btn.style.display = 'none';
-        }
-    }
-
-
-    //show all expand btns
-    if (!atPhoneWidth) {
-        for (let btn of expandBtns) {
-            btn.style.display = 'inline-block';
-        }
-    } else {
-        for (let btn of expandBtnsPhone) {
-            btn.style.display = 'flex';
-        }
-    }
-
     setTimeout(function () {
         collapsibleSection.classList.add('hidden');
+
+        //hide all btns
+        if (!atPhoneWidth) {
+            for (let btn of collapseBtns) {
+                btn.style.display = 'none';
+            }
+        } else {
+            for (let btn of collapseBtnsPhone) {
+                btn.style.display = 'none';
+            }
+        }
+
+        //show all expand btns
+        if (!atPhoneWidth) {
+            for (let btn of expandBtns) {
+                btn.style.display = 'inline-block';
+            }
+        } else {
+            for (let btn of expandBtnsPhone) {
+                btn.style.display = 'flex';
+            }
+        }
     }, 500);
 }
 
