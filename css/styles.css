@@ -1086,7 +1086,8 @@ body {
 .hero-image__mobile,
 .nav__mobile,
 .expand__document--btn,
-.mobile {
+.mobile,
+.nav__mobile--bottom {
     display: none;
 }
 
@@ -1121,10 +1122,10 @@ body {
         padding: 0;
     }
 
-
     .header__content--center {
         width: 100%;
         padding: 0;
+        align-items: center;
     }
 
     .hero-image__mobile {
@@ -1252,13 +1253,60 @@ body {
         order: 2;
         width: 80%;
         margin-top: 4rem;
+        margin-bottom: 10rem;
     }
 
     .footer__content {
         padding: 2rem;
     }
 
+    .newsletter__card {
+        width: 95%;
+    }
 
+    .skills__card {
+        width: 95%;
+    }
+
+    .nav__mobile--bottom {
+        position: fixed;
+        bottom: 0;
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        z-index: 1000;
+        background-color: var(--on-primary);
+        box-shadow: .2rem -.1rem 8px #D0D0D0;
+        align-items: center;
+    }
+
+    .bottom-nav__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        font-size: 1.6rem;
+    }
+
+    .bottom-nav__item img {
+        width: 2.4rem;
+    }
+
+    .bottom-nav__item.center img {
+        background-color: var(--primary-color);
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 50%;
+        padding: .5rem;
+    }
+
+    .bottom-nav__item.center {
+        transform: translate(0, -50%);
+        background-color: var(--on-primary);
+        padding: 2rem;
+        border-radius: 50%;
+    }
 }
 
 
