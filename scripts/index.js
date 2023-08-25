@@ -108,7 +108,7 @@ function collapseDoc(documentBody) {
 
     setTimeout(function () {
         collapsibleSection.classList.add('hidden');
-    }, 700);
+    }, 500);
 }
 
 function expandDoc(documentBody) {
